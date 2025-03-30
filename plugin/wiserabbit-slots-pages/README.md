@@ -22,8 +22,17 @@ Provides a custom post type for slots, custom metadata, and a responsive fronten
 
 1. Upload the folder `wiserabbit-slots-pages` into `/wp-content/plugins/`
 2. Activate the plugin from the **Plugins** menu in WordPress
-3. You’ll now see a **"Slots"** section in the WordPress admin
-4. Add slot entries, fill out their meta fields, and use shortcodes to display them
+3. After activating the plugin, make sure to refresh your permalink settings to ensure the custom post type URLs work correctly.
+
+        To do this:
+        - Go to your WordPress admin panel.
+        - Navigate to Settings > Permalinks.
+        - Simply click the "Save Changes" button (you don't need to change any settings).
+        
+        This step flushes the rewrite rules and ensures that the new slot custom post type URLs are properly registered.
+
+4. You’ll now see a **"Slots"** section in the WordPress admin
+5. Add slot entries, fill out their meta fields, and use shortcodes to display them
 
 ---
 
